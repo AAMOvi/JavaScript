@@ -16,3 +16,20 @@ const myFunction=function(){
 }
 
 console.log(typeof id);
+
+//stack(Primitve), Heap(Non-Primitive)
+
+let myName="abdullah al maruf"
+let anotherName=myName;
+anotherName="ovi";
+
+console.log(myName);
+console.log(anotherName);
+let userOne={
+    email:"user@gmail.com",
+    bkash:"12345",
+}
+let userTwo=userOne;
+userTwo.bkash="98760"
+console.log(userOne.bkash);
+console.log(userOne.bkash);
